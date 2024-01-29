@@ -2,6 +2,16 @@
 Youtube Tutorial
 
 
+When a user submit a form flask generate CSRF Token with the secret_key and stored it 
+in a hidden form field withing the form
+
+
+2. **CSRF Token Generation:** Cross-Site Request Forgery (CSRF) is a security vulnerability. To prevent it, Flask generates a CSRF token. This token is like a secret code unique to each user session.
+
+
+In summary, the secret key is used to generate a CSRF token, and this token is added to each form to protect against CSRF attacks. The CSRF token ensures that the form submission is legitimate and not an attack from another site.
+
+
 1. **Introduction to Flask:**
    - Overview of Flask and its features.
    - Installation and setup.
@@ -82,3 +92,77 @@ Youtube Tutorial
 5. `Quiz or Polling App: Create a quiz or polling application where users can answer questions and view results.`
 
 6. `To-Do List Application: Create a task management system with features like adding, updating, and deleting tasks.`
+
+
+
+**==========================**
+### Core Features:
+
+1. **User Authentication:**
+   - Allow users to register accounts and log in securely.
+   - Ensure user data is protected and private.
+
+2. **Dashboard Overview:**
+   - Provide a summary of income, expenses, and savings on the dashboard.
+   - Display graphical representations of spending categories.
+
+3. **Income Tracking:**
+   - Allow users to add and categorize various sources of income (salary, freelance, etc.).
+   - Provide options for recurring income entries.
+
+4. **Expense Tracking:**
+   - Enable users to log daily, weekly, or monthly expenses with categories (groceries, utilities, rent, etc.).
+   - Implement recurring expense functionality for bills and subscriptions.
+
+5. **Budget Planning:**
+   - Allow users to set budget limits for different spending categories.
+   - Display alerts or notifications when approaching or exceeding budget limits.
+
+6. **Transaction History:**
+   - Maintain a detailed transaction history for both income and expenses.
+   - Include search and filter options for easy navigation.
+
+7. **Savings Goals:**
+   - Implement a savings goal feature where users can set targets and track progress.
+   - Provide visual indicators of goal achievement.
+
+8. **Financial Reports:**
+   - Generate monthly or custom date range reports summarizing income, expenses, and savings.
+   - Include visualizations like pie charts or bar graphs for better insights.
+
+### Additional Features:
+
+9. **Multiple Currency Support:**
+   - Allow users to set their preferred currency for accurate tracking, especially for international users.
+
+10. **Expense Categories Customization:**
+    - Enable users to customize and add their own expense categories to tailor the tool to their specific needs.
+
+11. **Financial Insights and Recommendations:**
+    - Provide insights into spending patterns and offer financial tips or recommendations for better budgeting.
+
+12. **Reminders and Alerts:**
+    - Implement reminders for upcoming bills or financial goals.
+    - Send alerts for irregular spending patterns or potential budget issues.
+
+### Development Tips:
+
+- **User-Friendly Interface:**
+  - Design an intuitive and clean user interface to ensure ease of use.
+  - Use clear labels and provide tooltips where needed.
+
+- **Responsive Design:**
+  - Ensure the application is accessible and user-friendly on various devices (desktop, tablet, mobile).
+
+- **Security Measures:**
+  - Implement secure authentication practices.
+  - Use encryption for sensitive data, especially financial information.
+
+- **Scalability:**
+  - Plan the architecture with scalability in mind to accommodate future feature enhancements.
+
+- **Testing:**
+  - Thoroughly test the application to identify and fix any potential bugs or issues.
+
+- **User Feedback:**
+  - Consider adding feedback mechanisms to gather user suggestions and improve the tool over time.
